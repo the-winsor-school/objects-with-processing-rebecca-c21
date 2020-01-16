@@ -164,10 +164,10 @@ abstract class Sprite
     y = y + dy;
     
     // make sure we don't go out of bounds
-    if(x < 0) x = 0;
-    if(x > width) x = width;
-    if(y < 0) y = 0;
-    if(y > height) y = height;
+    if(x < 0) x += width;
+    if(x > width) x -= width;
+    if(y < 0) y += height;
+    if(y > height) y -= height;
   }
   
   // a Sprite itself is abstract and does not actually know
