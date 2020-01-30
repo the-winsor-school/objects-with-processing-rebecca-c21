@@ -13,6 +13,7 @@ namespace Variables
             x = 7; //the equal sign in this case is known as an assign; 
             y = x + 3; //it makes whatever is on the left equal to whatever is seen on the right
             //perfect example of assignment and retrievement of variables
+            
             Console.WriteLine(y);
             Console.ReadLine(); 
 
