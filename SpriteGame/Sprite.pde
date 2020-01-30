@@ -9,7 +9,7 @@ abstract class Sprite
   float x, y;
   
   // this Sprite's current velocity vector.
-  float dx, dy;
+  float dx, dy; 
   
   // initialize a Sprite at a given coordinate.
   Sprite(float x, float y)
