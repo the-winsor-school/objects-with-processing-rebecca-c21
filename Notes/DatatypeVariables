@@ -1,0 +1,81 @@
+public class DatatypeVariables{
+	
+	//variables are attributes, specific instances 
+
+	Data Types{
+
+	Numeric:
+		whole number data types {
+			int (Int32)
+			short (Int16)
+			long (Int64)
+		}
+
+		decimal data types {
+			float
+			double
+			decimal
+		}
+	
+	Raw:
+		byte (8-bit): aka 8 ones and zeroes for the computer to read {
+			10001000
+			each power goes up bya unit 
+			so this value represents 136
+			there are 256 possibilities
+			8 bits gives you 2 to the 8 possible values 
+		}
+		bool (1-bit){
+
+		}
+
+	//limited behaviours, used in a lot of places, but they don't do a whole lot on their own
+	//we use them to contruct complex objects
+	Text:
+
+		char (character){
+			secretly an integer, everything comes down to zeros 
+			32 bits interpreted in a different way
+		}
+
+		string{
+		} 
+
+	Complex:
+		Vector2{
+			It's a numeric data type
+			We attach behaviours to it 
+		}
+
+		Sprite{
+		}
+
+		Console{
+			it represents the window that pops up when you open the program
+			it is a new data type 
+		}
+	}
+
+
+	//representation of it taking up space in the computer's memory 
+	Memory (RAM): { //how to write down these specific things
+		int x (32-bit){
+		= 1248 is the maximum number of values
+		this is 2 to the 23 plus 1??? 
+		}
+
+		double y{
+			3.427 values 
+		}
+
+		char ch{
+			'a'
+		}
+
+		string{
+			"Jason"
+		}
+
+	}
+}
+
