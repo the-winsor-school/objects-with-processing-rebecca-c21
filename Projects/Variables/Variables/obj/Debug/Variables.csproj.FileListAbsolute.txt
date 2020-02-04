@@ -1,0 +1,5 @@
+/Users/Rebecca/Projects/Variables/Variables/bin/Debug/Variables.exe
+/Users/Rebecca/Projects/Variables/Variables/bin/Debug/Variables.pdb
+/Users/Rebecca/Projects/Variables/Variables/obj/Debug/Variables.csprojAssemblyReference.cache
+/Users/Rebecca/Projects/Variables/Variables/obj/Debug/Variables.exe
+/Users/Rebecca/Projects/Variables/Variables/obj/Debug/Variables.pdb

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{F73C8D61-1D48-46DB-B4F5-649A6060DA30}|Default">
+  <MonoDevelop.Ide.ItemProperties.Decisions FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Documents/GitHub/objects-with-processing-rebecca-c21/Lesson Videos/Variables.cs">
+    <Files>
+      <File FileName="../../Documents/GitHub/objects-with-processing-rebecca-c21/Lesson Videos/Variables.cs" Line="9" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Decisions" expanded="True">
+            <Node name="Decisions" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

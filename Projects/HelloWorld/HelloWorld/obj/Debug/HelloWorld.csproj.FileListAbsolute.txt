@@ -1,0 +1,5 @@
+/Users/Rebecca/Projects/HelloWorld/HelloWorld/bin/Debug/HelloWorld.exe
+/Users/Rebecca/Projects/HelloWorld/HelloWorld/bin/Debug/HelloWorld.pdb
+/Users/Rebecca/Projects/HelloWorld/HelloWorld/obj/Debug/HelloWorld.csprojAssemblyReference.cache
+/Users/Rebecca/Projects/HelloWorld/HelloWorld/obj/Debug/HelloWorld.exe
+/Users/Rebecca/Projects/HelloWorld/HelloWorld/obj/Debug/HelloWorld.pdb

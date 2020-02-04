@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{CE845FDC-558C-4B73-B597-6C2B9F245124}|Default">
+  <MonoDevelop.Ide.ItemProperties.DatatypesVariables FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DatatypesVariables/Program.cs">
+    <Files>
+      <File FileName="DatatypesVariables/Program.cs" Line="4" Column="75" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DatatypesVariables" expanded="True">
+            <Node name="DatatypesVariables" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
