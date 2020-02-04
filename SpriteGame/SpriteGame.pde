@@ -11,7 +11,7 @@ Blob other;
 void setup()
 {
   size(500, 500);
-  
+
   // Blob parameters are: 
   // x (px), y (px), radius (px), 
   // x-speed (px/frame), y-speed (px/frame), and color.
@@ -21,12 +21,12 @@ void setup()
 
 void draw()
 {
-  background(255,255,255);
-  
+  background(255, 255, 255);
+
   // make the player move automatically.
   player.keyboardControl();
   other.chase(player);
-  
+
   // draw the player on the screen.
   player.drawSprite();
   other.drawSprite();

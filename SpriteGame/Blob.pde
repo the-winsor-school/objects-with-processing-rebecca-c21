@@ -9,7 +9,7 @@ class Blob extends Sprite
   // Blobs have a Radius and a color
   int radius;
   color myColor;
-  
+
   // Create a blob with default velocity.
   Blob(int x, int y, int r, color c)
   {
@@ -20,7 +20,7 @@ class Blob extends Sprite
     myColor = c;
     radius = r;
   }
-  
+
   // Create a blob with a particular velocity vector.
   Blob(int x, int y, int r, float dx, float dy, color c)
   {
@@ -28,21 +28,21 @@ class Blob extends Sprite
     myColor = c;
     radius = r;
   }
-  
+
   // I can override the default Sprite.move() method by writing a new one here
   // this one will "bounce off of" a particular color in a boring way...
   void move()
   {
-    if(this.collidesWith(color(128, 0, 200)))
+    if (this.collidesWith(color(128, 0, 200)))
     {
       velocity.x *= -1;
       velocity.y *= -1;
     }
-    
+
     // because I don't want to rewrite all the code in the Sprite.move() method, I can call it here using "super"
     super.move();
   }
-  
+
   // This is the method that is /absolutely/ required.
   // this defines how to draw the Blob; it's just a circle...
   void drawSprite()
