@@ -1,10 +1,14 @@
-import math.*; //necessary for angle return type
+import hivis.common.*;
+import hivis.data.*;
+import hivis.data.reader.*;
+import hivis.data.view.*;
+import hivis.example.*;//necessary for angle return type
 class Vector2{
-  private double x, y; // coordinates of this Vector2
+  private float x, y; // coordinates of this Vector2
   // could also be on two separate lines as two separate floats
   
   // this is a constructor, it is where you initialize an instance of a Vector2, you get the data from the floats
-  Vector2(double x, double y){
+  Vector2(float x, float y){
     this.x = x; // this is the keyword for this reference, it's the object talking about itself, this x is talking about the x at the very top 
     this.y = y;  //it makes the y in line 11 the same as the x in line 3
   }
@@ -21,7 +25,7 @@ class Vector2{
   }
   
   //returns Vector2's magnitude using a square function
-  public double magnitude(){
+  public float magnitude(){
     return sqrt(sq((float)x)+sq((float)y));
   }
   
@@ -31,7 +35,7 @@ class Vector2{
   }
   
   //returns a new vector scaled by factor (factor is s (sorry Mr. Cox))
-  public Vector2 scale(double factor){  
+  public Vector2 scale(float factor){  
     return new Vector2(factor*x, factor*y); 
   }
   
@@ -42,18 +46,18 @@ class Vector2{
   
   //new Vector2 created by dividing x and y by their magnitudes (made variable going to magnitude so the entire return type isn't done twice)
   public Vector2 unitVector(){
-    double mag = magnitude();
+    float mag = magnitude();
     return new Vector2(x/mag, y/mag);
   }
   
   //found dot product equation to apply to Vector2 and other
-  public double dotProduct(Vector2 other){
+  public float dotProduct(Vector2 other){
     return(x*other.x + y*other.y); 
   } 
   
   //the arccosine equation had to be applied to the dotProduct return type, in this case it was the dotProduct of unitVector and other.unitVector
-  public double angle(Vector2 other){
-    double d = unitVector().dotProduct(other.unitVector());
+  public float angle(Vector2 other){
+    float d = unitVector().dotProduct(other.unitVector());
     return acos((float)d);
   }
   

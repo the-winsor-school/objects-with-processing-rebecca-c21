@@ -1,0 +1,30 @@
+/*
+instances
+interfaces: The thing that you can use 
+the methods for the Vector2 assignment are the creation of the interface 
+the method names are important 
+
+
+this.x is the implememtation of the coordinates
+it doesnt matter as long as the objects does what you tell it to do 
+*/
+
+import math.*;
+class Vector2{
+ 	private double x, y;
+ 
+ 	 Vector2(double x, double y){
+    	this.x = x; // this is the keyword for this reference, it's the object talking about itself, this x is talking about the x at the very top 
+    	this.y = y;  //it makes the y in line 11 the same as the x in line 3
+  	}
+  
+//up there is implement, down there is interface
+
+  //This is the return type the other makes sure that it is a Vector2, it has an x and y
+ 	public Vector2 add(Vector2 other){ //this vector 2 is the return type; it tells you that the output is going to be a Vector2
+    return new Vector2(this.x + other.x, this.y + other.y);
+    //return means this is the answer, new means call the Vector2 Initialize, the stuff in the brackets calls the sum of the x and y coordinates
+  	}
+
+
+  } 

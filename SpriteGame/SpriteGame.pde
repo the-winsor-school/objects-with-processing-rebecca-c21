@@ -1,3 +1,8 @@
+import hivis.common.*;
+import hivis.data.*;
+import hivis.data.reader.*;
+import hivis.data.view.*;
+import hivis.example.*;
 
 // this is your player, they're a blob and they're kinda boring.
 Blob player;
