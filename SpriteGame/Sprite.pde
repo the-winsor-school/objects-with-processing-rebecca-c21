@@ -40,7 +40,9 @@ abstract class Sprite
   // check to see if this Sprite is sitting on a particular color.
   boolean collidesWith(color c)
   {
-    return get((int)location.x, (int)location.y)==c;
+    return get((int)location.x, (int)location.y)==c; //the methods make up the interface; how you interact with the code; how someone interacts with it
+    //implementation is how you actually do that thing; it is not important to the interface 
+    // implementation is up to you as long as you get the right output 
   }
 
   // make this Sprite move at the speed := |<dx, dy>| 
